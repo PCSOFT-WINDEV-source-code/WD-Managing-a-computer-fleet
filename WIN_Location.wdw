@@ -1,0 +1,761 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_Location
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WIN_Location
+ identifier : 0x286d114a31b0023f
+ internal_properties : CAAAAAgAAAAyBXXRW9wvFSXpaWyefti7BoX6snOtWjWtNX1gXmRA1UG+21ab9fRXzhQe7FUxYEvmf9s9UWaanM1ckIEnh9H9GD1JTpOXgPJzTSZ7qD+ie0hcj/RSMAeuoZ4igqGheuGLgXikn+eZjZ+6g+BIEISg8QEh6Lv0TXcdut8xMcjAmXvs1/2wqPZ804qsUOZQ4Ch+ZC5jZPbZQgS5XpOq/XI2n9B5YgiSuFMB1VLQ0V29Ijkua+YTU/oFuCJsAulfiZ4QlnXJ7F4Y7IkhA/M1SPPKFEjfaWebjCPe6W/BCm81rgNckr+hmNLN5pP0eb0iy57345XcQIPlHLE8VRtveLjTX4fwyeq3ncKzyQ+uRKoGZ/9Nx5wmVKnJlm2AXg/N+/UC1qTHAN6Z1rTmYQD9c+IweXSlXRccpN5apldVHa+aBCaU17Opj1+8/RAmo9FZfrNjJUI+PapJYmo7rUj1rGvWYVQ5wg3zvNGrRIx/G8oLwLHqV+gKknpfE9oAdMd72NbcUyyDiPDbTrmmFa3FaAnseaZgYV8URP6iOOtodr+YOk6HXVcdQ/YRQP8OkPVW87t7w+pkQLULLMSxJK5Uq17Lw0fKvCDrOoE7OusbV3woh99zjmZpErNUBWGSQobGJPtM2tjiTXiqz0AC1QzeqUG8oHATfTcA8CnoZCT+D2Mw4Xc75Ue/1EbygCTlwJ5CLvu0QU4Lh6nBiIIlKSpq+r2D09uCsHR6Mk0LEZofo831ahAu88TKn0L8AZZ7kATQa9Q7K9Qm2vIaGuW8RjYlPiPBHSvlhtGULG2STscY8AnTztvbwLV3Nx9gcmT+MUF3tgQ/O8jUnGy2crhDjdxM1LTZke2goOwBIs/fkO1sgEDKus0IGMo4Y6PdOcNiBPn74AJVPTfAVLjKd5oTO6RDr46pFd7YLIGnkKhmac5GQHrPvk8VQq1+M9s/P3yk8JAmjfPJztV9Ec2agTVUtd3rz3i0iP8WiEl63rGfHvRBt1Zuo0GmeiotUwo1NAvEzy1F0tQMI5D6gYo5aKtn3q9Bbv24GvUIbqz6fF+y1DAzx576v4hqKaGV
+ properties :
+  width : 974
+  height : 634
+  widthClient : 972
+  heightClient : 602
+  widthMin : 344
+  heightMin : 308
+ controls :
+  -
+    name : IMG_MapOfPremises
+    identifier : 0x286d114a31b2023f
+    internal_properties : CAAAAAgAAADd2tBSAbAXrEvNRGbCHxyI//Pz4pT4npLCIhAiJAQtOWmajvRMChQtLD4mwYoPFwtdASl24za2cnZmFAFf7VOXWndp3bwO/EtVZel7GTZAMH8pChFbubhY0mGGkUYi0QJM1BxSZEbtdsaKxhPSkJYUrIlsMxbOw/Bu+OxJksOvXIxdOuzMSEMCncJsn66xDSrAn6F5sW3WO8QBW523z10aLbZctORRjZB17p6cdc0fvVvkk8bhhku6EkscOwlt0tj+rqbTzDsQCCdjM4E11H877c9m+ubGLjbwg2E0Ep6syMjbj75useymtgn2sMS4CvLJoaADYfrjg3moEKK5Xlu1o/2GZINLU0d+TMdQThIg7iWBFBgTLgk88LP0NndUfWoKBeSbmxQ6JCIX52ZUCs9KX10NwPjztY28KE50vGSH8FEoAmcRRJ0nxj1l3SdPFCWhMp6XFzpHt34Lj/iyjZdf65ajWqWv/WhKy9+hnCpfA6qsod5gZ2Q/Ryrx9DIUESChdZzhgm9s4LUBwubo5xGmwM9sUnC/fm/NnA7NsPALlZ2SlwFzGNVr3uU72G4HkKAPKqktQq9bN82LZ6YSKIK797TxD4DRFwYD3Rm1IQ/yxpURPlXwxOBivaJnfaMQTvn8ja1qkpXWYIVBHsSnFSdxlknpSMfTMDroHYJWeC2x4PTF8B7aV1TiWsUXp/bSQVCKow7Fhl2krUIN8k1Nr+SIdE+CKoN8uU58EGoEBUKEdD9KqCreqJy/dmGNDCZ5zJE3o1bQejF3g6BHavR4sV7DfkTNiHTtd5TmqYClcQXuVNQ2usiSEn6XDYBK7fGRJef0eex5cdZvELp6XCrBkDpSvYSuOqasi+RSt9eofHWVJgeu3mtxUr4kp+PpPfh9OgKDdPA28g==
+    properties :
+     x : 16
+     y : 60
+     width : 709
+     height : 538
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1+
+         SWITCH gnMode 
+         
+         	//We are about to create a new location	 => we are currently drawing the new location in the map
+         	CASE CST_CREATIONMODE :
+         		LocationCreation()
+         		
+         	//As soon as a location is selected on the map, display the information about this location	
+         	CASE CST_VISUALIZATIONMODE :
+         		
+         		//Retrieve the information about the current location
+         		Location_AccordingToCoordinates(MouseXPos(), MouseYPos())
+         		
+         		//Display the information about the location on the screen
+         		FileToScreen(MyWindow, LOCATION)
+         		
+         END
+        type : 18
+  -
+    name : BTN_New
+    identifier : 0x286d114a31b3023f
+    internal_properties : CAAAAAgAAAAMKcky1cFdJSfgBIjbN6Db8Xr/qi3XEMoNGwhpd2SkvcMYLUQpa2OIw2ELRU8f92TmlsKlDaN3hEgVGIEFe6KfvpAiVpZhoucCoYvJuUH0RBtNczFAZeXdY1jezCz7wY85T5gRlHFZCWM2RvHfSPoyBcU16OZ6fS4z3oqVj1Rfdpvh/qFOzYB6FqvpQfjbTS8N6ev93+EgLyt7Oc1USaU8WKmgW6lsdtUXR7YuamJu6S4OwS2e395ZJOJL3DIyWzcjidiD4SQfp1yXoDEPiPk4TthDUWliCWZyaH+V5S2xneAW1SBDn2lpmlI/7HvebbneP+nZUHiGanjG0QMyJNvG7CTeaUp5yzWdGt5JbS9xR4WBfX1fKMYlxbTsWT6tKDCxnn9tDrWN4oy7YpNgzQ+yePqIu7U3PgdHeJE+RvWdMrOAcI4/MKnpHLWLXi7xTwynRP3xjDjNmvA5k7mUvHvUemOGcGkXzZpKWVK0DkGojFqcvTfGBTH5x0XHGEO7nOXnj26YNPs5/lJwHGWOdsEDMP2ioikXfb3qPG/e3WF7KcpPWW170s4QCPJwhrsgcnea1HLCEPMTP7EZekGDqmm8koub++yeU1uKv/S+QDH4H8L8Y+mzeo6bwbRrlMgUgnR/DbORo8pNNFiFInskV1k3erZj+UyFqSwqxFuVAcpNxjF3PRysU0eNhnkXvAdfelR83wPq4KaGMsYLTFoW00lz0rmhz0gKSQ/vL/R6ZDdTkViLsa+Z7G93e9bA0/mOrA7zRaGEH0nETw1eoojLzeolvgR5DTeQgpl6AQ3esaU6GB1QZompbSFM3wxIMk+x9URjek3hx0SDdvW/47iZKMcbVoF4RT6xGolE8eDoLpKukhiwCmRVEpTX2hENM2gCiIP/x+YSVIG/BNhxwi8fDMQSSUbO2R2m3R+Z7Jm90REG24ug7jlhAZJQXI7oyoVBzNcq2nXXa+DSuqS1BAn1oiJa2pFX0QqWHwq2m8EM45R3chbnAm6TyA==
+    properties :
+     x : 540
+     y : 15
+     width : 96
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         gnMode = CST_CREATIONMODE
+         
+         //Reset the coordinates of the location to zero
+         gnX1 = -1
+         gnY1 = -1
+         gnX2 = -1
+         gnY2 = -1
+         
+         //Re-initialization 
+         HReset(LOCATION)
+         Reset()
+         IMG_Picto = ""
+         
+         //Makes available the controls for typing information about the location
+         GR_AddModif..State = Active
+         
+         ToastDisplay(<§$0000§>,toastShort,vaMiddle,haCenter)
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_Delete
+    identifier : 0x286d114a31b4023f
+    internal_properties : CAAAAAgAAADL4Q7uNQDedowZz02MeYQBlGhcAaJWZpHZuG39Vw+ZwKI1VRB/VhKuGrG6tclniWY3rqHjEEMM5zbThRvheaS4wM3XXFTV/RJqmrb7LpCk3WKXctSIqgF5xwLkMezhpXp0Q2rFWWpNjlPzx8mwBzAjkTG519yp24qEH1wk9fapAv8nqW166LXBdNs/aIMk/j1zegfopudmSgqFxjX3l+sfgzMPOPmrmvuOcCsK9p+pz6g3dkUs4NXBo2LHzdxHV+FAVNPBwjUJj5mBVW5MJTyGmdB25ArO1AjT+RxLeXQZaW3zS16INBQZjR+N7JW0zmN3Yxu6yhMzo2bql50lP0t2GVMrRhMcMIrcQKSgfXxu9h3r3u1EETxCxnkjdqFM/3EomkMHqlH2KuJAMDR6UQ6f0wK0agff92SeZwCFsrq66qis7pItw0x6jQtypRsqjNSb0K3eoxohQcp9JJiQlfdsxn7xvhRK7nwI4MGekcO5X6QRIxmRvG0+XeEIWu6LdHOdnwqTrl0XESwBbtV0mv0KGLRZXEHe0SDYD6teIsKTmLQUbx5ZroQTwARf9oe2t1WN7+EO5og//7bhrQpr1mBZIN9df40XJ6PKlebHtePiYcmhNoS/+IHlTOOjPQCw0cTyLSgHpsH+EBul1RYOci0OYHQ5cnwz49v+y9ujolEOyXkcxKCC5vHWKWXGrRcvQHURuADUsOtmsHYP75bbUy2tLvMwbS7mmZ+/KsF75WzWjEYdx4YDnPiGWqbUl4Ve3xKsr6b0FcMRlpR8+9AcXnpx5oa7J3hv148aS8Ni/AqP6KEmdU3aRKbobJjMq7p6vgvBpitfEgw5n+p8rJVzVHLRtWQI4OcOqKecmlJD9xpNsnvIdrh/7XxKYMJANf+bLP5igxmUDNK1wK8QSRgx0P4i3Q0/lIgCxmYlfRehknXDMhkQ+WqJGxcECcDzUN7Eq24452IVFlWSwIyUnFgBldbDbPtDMr2B+fV7FP/8Vze7jFfESA==
+    properties :
+     x : 744
+     y : 15
+     width : 96
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         //To delete a location, it must have been selected beforehand on the map
+         
+         IF EDT_Location <> "" THEN
+         	LocationDeletion()
+         ELSE
+         	ToastDisplay(<§$000c§>,toastShort,vaMiddle,haCenter)
+         END
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : EDT_Comments
+    identifier : 0x286d114a31b5023f
+    internal_properties : CAAAAAgAAAAAgDszVzGmh2i5KQ3yCxJbi65swnm60T4qaMjLrrHCuhGcezroVtpDzI93j9bP7UW2EjIo+VNFqldHgsQLUIP8HDw0rMi3mUxVbImUjwDkBOMCMM2agDFnDvaD4w5Lm5WyNXXGQqtdrb5ALpN6o5PaKpThWcvMorRzB+QfDHRi8N6+64whwFDHATCJu19G6AIyPGCLKR4M3TUmJ2W2Qa82tzrDS2JZ5cc7RC5hbqNuGmZ/lrnufJh8z8x62oLvgLmze2t09CPMl/ZhPDEjF09JseJ+H5wNbc/o5a1ssIPIe7VUovmi+JfPGfp4XcV9PtYtav5BHvemq14zLtgu0+/DYG9z8gTbpN8ilQNg7Kvn/wmvzVy1Wep2sh8NzxjkA7hJeUyfSUgWXrU825FYA77tXc8S4HK5QkujZs0cHsI7EkzReXG/lelEm6vymeOk/Nrn06IgHb+NU/A+IGafxLiN2AWIwrbooW/0+SSWXsERhpgOlgMNpYqQU8B/bgQToo8GzTqw1rsMmNaPnWiy9darDBTGebf8qhLGXeR4JBAdYo7ZwC/naY3j9ONFXmViKEA/hhrjXy9STLu8BqAruHlNuujObefNRRJMpi1HN7Wc74iMowBYmmk8+5Ldhr1L/GH2VEm5g92PRPDzBwJvLzeEeQ1SKfINiF03AO9OAlSAAyIg75/PurFQsb3RNaI9kAurCC5pCzsi6LGphwa6nImnfutS9X7WJlJW7qjLPOpzxcUwsD3abpWuxCEKrBNqmWypUlW/kDgdEg++azdac/k8ahdAJbblgyrVlDDm+3l9UGY3e2bwUjhprq6NNtWSThx5JDX3g89DidxLwSHc6z9glGgAJHU/Q+vH67ebFuRJHS3CuIgqGDTZB5uT+VxgpLetdV+MLitzLlz+Lvxn3XWcXpcMHDwoX2Ex0NGqcic9dhkJDr4VAwCr/kM0ALgHFdJ6wDrGlEn/lrihesKcrNOYYBPygpvh1qTcUE0n/wQ6CHNO/j+S/mVU8mfEuvWAUgAyGYjMd9Yyb4gLspZdwJSxYoDN90t9foB33563CWIECNWcGIdwGvjE/eXiWG58Qe4e4sjiNdkqSuNJpTROYqqAjCgGNOwaM8Q6vhGXv+yAm7ZHxBg5idCrxorrjtMpFbQxiTWZN8xXBiPLZ+BpRI7DMJDo/GRLJLs56p5nyrdUW0ZXQzueb5J0CFVnUQy5ru/BgNZJcQCCkv9IbVePEFhVzYpx/EWWHe9XAi8Gne/0NbpIfrnzLMDvbyc4L9kN2EkjJ6t7jwnnUU2uyDvtKp0COshl+1vA081U3L7aqxA0xS7ozTfVeNhi0b9NsOdZCAEm9GiQp8HRmD/Zutl2i3YqwmGNeyYuZ8mxSY/JTdbAQDCC6yzRP8MJhr6XqauptQ0HvC8JagdWSehYRO2UcnY6HwxNbmN8DKsW4U8TeCqRkUrxy4otJ5uGc41HL++BPkfxBQ==
+    properties :
+     x : 737
+     y : 154
+     width : 193
+     height : 109
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : EDT_Location
+    identifier : 0x286d114a31b6023f
+    internal_properties : CAAAAAgAAAAJZ+iLZB/h2VxQWIcGJgRIuGNQv9V9nSLSU8zZIpyvB1T+3n8yopfn13Msx47ougvYlM/2CrIdIvdbCXorfvYvSI0jWjFDcpxYrW31HwQFITL/Uf8sn6I1is0MqXrIerBkS7eI/ZiXYvGVQuylAS51B+6xGdIQyXXlmU3q8SFP06foc3+ZgJK0BGlDgDtTgywS3qgLWyRdRRinJaGulLNaWja7T3kssmXRbkyzVqqv6F8M6PhrDSzc9NFDZPxCbU3pnIvJHhDnPUyreP0s3zAKWFON5YiYyNJdJi7T0gZ1d5BBzthjX+9Hw7VxXCxksgjCJ/Tu/zhztFih2sDajGdbHMLFAFlX2xKOSMotcCyWAbTuwrAsXziDMdvKABvOdvKzkr1i13K+2GfpbI3317wATCbrMJ77+DUfQD1fbdW5i5bse35DTyhqypeNb0bNWvRiIAlSzGcLZW9Zr9+kC5Z9C4pWEGymkvWiPU7tZXtvvTNW3zBWFHrnPOC97qr5lU20khII817oakYckjxoKHF/0zBtoHRwgYS+T+J4cdMaEr6gMu+tURVhpSj9H62QKDoPyjobFiuk3Yw6Ia2uABQg0rW0LbsEOjEQvaSt/0AHnGtxD2vKywXDS/yDU/eWQJKeOJhW/VA4DTo5xNwCOcTZnFEQ/FsRFEmG4mAQNlZ56e8y8w3uAziX2fkf252ItEbHmAn/146+xj52+bwroTIpuazTHEq8j97B8295gcxvhrfWwW2TDQgplRvv8FMhl3IELX4+QKnCDPb7w8xF7//D/FkWCiKwpVecC3u/HxPb9xvaj7SOaqsR2+WLdOb4kWawnnkyRaHD96G6hchpp/8JNzUj8IRTL+jrsP73hjRN5x2fRL1QqeIKF+HLhgf7aL0i9El8kUSfAt0kfR0dHrKU1CPlyraDQfSfMLvuRRqs5NYCSbinro8o3IflX3ejfxHta2x8yufksFEizsYp4D4028PI5rA22SYu80e3+5ltA4m+X/tWZhHx9U5Oaf+a75esgKn7pVkPBX6J5o5URIEqeQbgpDVqc9RPRrCnhxlCrty8m6qg4YzNMDihFCt/bhAgcn8TVMlY1xchjsXlAcO/ASNt0ZT+jr7AqJfvSzSucahq0f3b1LhEIvjRNkJCGcJ/wOnVkwvYPubTCufFECYFRf5+mAJf7ipogGDOb/8hv3A5jmTcMkE7+D60cYIpH0v1Fh25sGNjj8GXg+DOO4Nbdxz+Kv8JSc9Txcl5zj70W6RHv0U3XO3r8POIzqc+7Re1Gdtox9Pu4lOcoSR3h6bgoEPSZzYRkFvjeKYr/NQnDQRwmNrfYt6ZWzZEF2aV2s2erBl2M5wB7dRF6DjLKwQCBvYtqpg736Cya4JnpVIfxVua5jl+bqLjj2c3ubvUmkeHb5lKsz/XmAjTqndiSo5/bLXxVrt0DPIa/YNbsetOInGFDdvUKOliLPgA
+    properties :
+     x : 737
+     y : 108
+     width : 193
+     height : 40
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : BTN_Modify
+    identifier : 0x286d114a31b7023f
+    internal_properties : CAAAAAgAAAC8zrQxSHB36hJR6oYdy+xt8dy+m6j/RR2BkUu/8UHRNI/C36WIYFTSapJt3fFugV08bA9TL7FQncq+vzgQGXys1hTtoc4EKrhwD60T9MsjzHfOz4c7vyKcdKNj0F4bdu2Dy4TgGVW9egP+lLDqgv3K3oRLg7W405QCdYhYqAEWEg0vZgkGwTyfPoKzfLrA0Q3pIx43x+jsh/+ceR6ON5SpSy3Od82mbD2UZauLKNSqavP/ugyGdqhBVj5wm55Rj87g0+K65SxqVg9FBtZrgwvw8eQaqKTq/7f2Is1U8PqXkD4aEMpAJBK4zTFRqjF6edMGcLkQPMY//3F25AH0TIIkNHHXhf5FjiQZ2vNdjuCxx8gqqi/1JryU64k26Z6+UiOLEAxx/CI6FfA3Sjn8q2lhW5SwMDwPETweamTbBMHKuvjk+IxhJ1/EcyzXOxwRUs5WQW1nHTixBsAxgWXWKsVdKuO9JgDhOmQyLacGpQUDQMQ0ejaoXkXJ6WGZ0r3UOKARey7ZVPf1H42Dvz38QEZPx2VykNlxPYt2G+PxhsseTPrBWEscuAqYZcn1rXEI7a+Xj6F2nt250/pKZjBvsq2a4udFYzmhxfUN8lANE4RhBSGInDvL616S8zndJbSuj1mwsqbEQ0T5IQSIdBq9uK2kxb6neLH2ZgEPQSM9+Yxk+3OldE7hccZgEx2eUuEKHlJD/LbNphL7VyN8XE8Sl9xfX/1pMpv6fHB3arPK1bF8Wb7wUhwnhEDCia0FBRduDHCkXhzXcBhMrkcMT8AU0KVpeAmvLTkqH7SqBMZf3MW9gxOYjwJv1o5x6CcszqvqOYI3UL1JpLzRAW5wvPlXFuDDh6okIhEm+OegnGjBffZpULEKZ/WUjuMCeKxI98ElkgJG60NcxOCMOoFgKmR53vhuHDLLBXgaFwxx1JbEJcRz4L8G9KrLXTNGxOzRnGJ45IzIKhrzEq0iyuItizdvkg/Ya4xZ9osTyF9Cu+and1HPnM6zvw==
+    properties :
+     x : 642
+     y : 15
+     width : 96
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+         
+         //To modify a location, it must have been selected beforehand on the map
+         
+         IF EDT_Location <> "" THEN
+         	GR_AddModif..State = Active
+         ELSE
+         	ToastDisplay(<§$000b§>, toastShort, vaMiddle, haCenter)
+         END
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : STC_LocationInfo
+    identifier : 0x286d114a31b1023f
+    internal_properties : CAAAAAgAAAB7+2kBAcjpZ8/TuDGHFobke6iMJFT2YxuCaW3/aywMlMyCnydW1GL4SM9nVJ61dh+0CQTAlBSDtQsrt+eoyi1Yoha7PtITlolTvqVjc187UUbrAQ4T4qWvFeMx2Dfpvj662XeT7wYcGLWhiJYZyL1DdQJqaiXW3iYzTNbgVO+CdtY0ApPuAcbTWb9UVaq64Fs866r/0z5xrL6KrNRaGWDwpWVxwYfx7EkDMcDx+EzvPUxv/iW910IBtdmfYbzRTB3Akxd7lwZDoyDq8IJpqoDn7FnahBcz5d8OjK8OFw69nXTgDfdSXzJyqY4Kfyd/cKRUwvnAbGrmIRfEwPJEm+fke8sL074TMFYoLsC0/l0/B8nG5pwtQrG1JOdHAjmsG5et6KvCxR5+oP13vpW1Ol7CGoU16jcwDDfYBa6o5szpFUFCshLf3krExySYJ36hwO91Gz+MEPksJHhq8g==
+    properties :
+     x : 731
+     y : 60
+     width : 206
+     height : 538
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : BTN_OK
+    identifier : 0x286d114a31b8023f
+    internal_properties : CAAAAAgAAABRcl+xmiOsEZwKMTqWwF6mcGrfpkk1tTibKyREtYC18nnAQhBp0z/w79Z35MIjxOEktIDB/ZXSpn2VN/PZ2TIXmDsmDfZNH2ilOVAsZ7LYRQdgL3m3LRYjoArV0SBYGO/CoDBLiIqK99/nqsGjH+RFicWHV5CaS6h6zeuI6QDvElOhlLbmy4jyjNIFdNullHQfogrkFFTfV55pVJom4pGf+WXvFe0NJvhW2MprcA51ElmpNXQMa1ls25Smz/QVBv03IFpo2Zv9AoGZiojo3cz1l838vnjK04meoSV37dTKbahhbrwBWkEW1/MWVAtff2+71282zyLzXHUFPz4bZQjH41bZ0AD40oAD4VD8WLgb4RMpNVRAop7a9nTpTz7wr24oZvPb1bd1cCy4NrlMI4IwGi8Z4KUVwQnhPcXKWXNTRK8L6G5twPIItIGBmyQ0HhKf32r92L6IH5ibk/HmETCyNSVgym5XX76HC9WixiWVLkvbo5Z+Qs2/M4RxEtBbVrhoF0HL826Jf9SWbi1rN/39sg2j2uxrjznCXIJQRejio7Y/nJgkgk8btcwutw08rHMwVtuzUGPSDvonlyDRAhQNAnnscVpxYmyVePp8VHA1yBerbuEjtlRsHhkRV0aQ+UHqAU+d4ewLnZf8Zm7lI5nFD1xL2pyYZ3VajingSWAedHs3jKqftFZsjDz9ZaDRzhbuiaAqOETiG/em9E32/vRNbylUuvNt80+odGigewORe70nGA0rm8X+o90+du/CtCg+3Q5CUj1CcsIZci5ypjeNAvWsb/gZSSD6wnr4BUu66A2Xra2puxpZVZXcsuFTRVEoRBp25mbpo/eI1CSH4HJmk3BjNKZRHDHzInReXDbBf4XfrfBc7Av5WWJBfLKeEKfy10yCp/xPTcezojqf6X2xOS50u3Ko1lrWs6T/4neY7/mc1ky82jeZI+4JrxFaqVt6Fn1ju2ZADqGPiYA/tMwwXJXNMiFF4D8uaFnJwuU=
+    properties :
+     x : 792
+     y : 425
+     width : 38
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAAAX4QHZt2BIgmU247wIs7bPzQdWoB57D98dPMcK7HEp8bd66HztFsVttnVT6iiW+yRtWHi4xj4z57NiaVoLpWGBiLxlkAxdBUeV3wvB6a+bZ4as9TSVkC9Ohe2m0dI2hq3MVKhWEfZRlyc667A=
+        code : |1-
+         //Check whether the name of the location was entered
+         IF EDT_Location = "" THEN
+         	Info("Enter the name of the location.")
+         	ReturnToCapture(EDT_Location)
+         END
+         
+         //Place the pictogram in the LOCATION file
+         HLinkMemo(LOCATION,Picto,EDT_Picto,hMemoBin)
+         //as well as the other information about the location
+         ScreenToFile(MyWindow, LOCATION)
+         
+         //Add or modify the location
+         IF LOCATION..NewRecord = True THEN
+         	
+         	//For an addition, check whether the coordinates of the location have been specified
+         	IF gnX1 = -1 THEN
+         		ToastDisplay("Represent where the location is found on the map.", toastShort, vaMiddle, haCenter)
+         		RETURN
+         	END
+         	
+         	HAdd(LOCATION)
+         	//When closing the window, return the identifier of the created location
+         	MyWindow..ReturnedValue = LOCATION.LocationID
+         	
+         	//Switch back to visualization mode
+         	Reinit()
+         	
+         ELSE
+         	
+         	HModify(LOCATION)		
+         	
+         END
+         
+         //Update the map
+         DisplayMap(IMG_MapOfPremises)
+         
+         //Re-gray the controls for adding and modifying the location
+         GR_AddModif..State = Grayed
+         
+         gnMode = CST_VISUALIZATIONMODE
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_Cancel
+    identifier : 0x286d114a31b9023f
+    internal_properties : CAAAAAgAAAD6LVpECaNchasrYkSyNOgy14qiOL3c41PJN9H+RGdnGgS4spMiRfYmyNv31qLPBUzNCZJPZvqanZXlEbzE3zmI81t0ROrDyQaa/nVWjxZ+U45G3KFu4p6poz0NJ3xTKgLOG/OVJWMagzmoBBcZC8AaOj9Sp9KlLH4r3IOdTkFuYjWmpgHGf8+vhNkjcbpYPqxnjAC/nI9rfTk3bw9MBXZ/hxKx99wEqa8HkYzk4U1PjmvfUiEvrZf58mwT4wLceSp4cmfg8rPSYWRP5EHOC8x7OyXpnX8dhjLpYlRaIOgPs9z/cFu2bG2KsvLKyJTbXlWrymdU6XPnHcj0YdNGW47xsggINe153hSijy/3ZjAwfs3xWJP7BCyiAy0+R0GBjfjr4HIpdLwDHGQENkjqwhby/nIhZkf8qP09y4EA4Il3a2+4boQIAdM/rZKvVswzD3Pvj4oaKnvIt8hzx/XOBzw7mPfsuIc5C3RAM3wS87pV25DKv1y89NNTfOWqawZr9QmDYTkLIPiCqKpl1Hg+zvJndDOCyu1mCknbuy4sAoQiCqE/TVcs7P0H4jQglcO/h5HraPM9s6EPjpOv4qBZpXx/UbGEHxL2o/aEJ6HGLQ1eFsp54U6zCrYc53qF1ArMaqm1rY0z5M/6amjiEB+H+CxsGbfxwfWoU20qtOKzYUDOK80eVzWGcVXa6y6bZvIEcYMfIaQpCimTmYgZJh3o4E5t6XNspKUsMIovu8Lh6HdTGhe9gDk64k5zYblUkl/vL0SoCvdDVEdO7ZZ6ZgF+6Tw377FO39FeekpP5N8EGfTr0tUArP1UkRCWIeK01yUJq8d5qs2D7+0mkUce4chVTonsQiB1wPeSWICFRx5jdj38baATTZ5LpwOfW9l1uQlW4pOdniFNqzWPXK0aTEHDsNjqUq3xr8NLudC5ZbmZCuTDfrm7EZO1e6hddnTaRbGr0BX1XGTpBkMyU6rmBV3o7hxhTpqvtjrNND3Dirn4X+0L
+    properties :
+     x : 836
+     y : 425
+     width : 38
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+         //Re-gray the controls for adding and modifying the location
+         GR_AddModif..State = Grayed
+         
+         //Re-display the map as it was without the location currently created... if we were in creation mode
+         DisplayMap(IMG_MapOfPremises)
+         
+         //If we were in creation of location, re-initialize everything
+         IF LOCATION..NewRecord = True THEN
+         	Reset()
+         	Reinit()
+         END
+         
+         gnMode = CST_VISUALIZATIONMODE
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : STC_Management_of_locations
+    identifier : 0x286d114a31ba023f
+    internal_properties : CAAAAAgAAAB5rkecF3iREkuD6HL51hscChVNLeQOYPgWQz5C3KtBMKDQBZrRtI+XPNdhpDgl/m9zG44ydO4ypoGPJLTE6U7XJMT1Yfud8K/MM9yzfD50VgTXadw9s6bIjZE5gQqkp6ofa9mlKuWXVGVEytVCRh7eZ0jNwSgm7xas50XD04pgBNVQRWv4YOJRq8yUXimDmeM3WdtcjGlUKBSMLdQX3DCPDNwqTM37M8drCIUKa9guIRI9+itAH9qdQveOj+lA4cSLoelTRsjhJBk+hGOJnrK5npC0B7MDckg5PCKDukNrS8cxLEQGkSU0fTElY4cHM33DOn7v0B9GT9QM4cvqtmgvv4O1jH5PGItXVduuPEMy70u4IIBC/oX2yJG2ntSYF2+m6q2MZ/sal3a7L0sv/L5r8sBH3131ctyLR5V6MA8wrvf6gK9Ji2vo9tK8G7a56OZE8iqAJEH9ERiQ3E2758R9rxG51Aocw29cHqW3f4aUesAFoRzbHPCGaedfQT+1jH0ROu/iTPBrCjI4Omxt80ePhl07ipVSxSy7kw==
+    properties :
+     x : 12
+     y : 12
+     width : 514
+     height : 30
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : EDT_Picto
+    identifier : 0x286d114a31bb023f
+    internal_properties : CAAAAAgAAAAxKpsO+ND6UaXD1TlHZ9lS5lYRkqxPyIaxEX17wWAuXuJCMG0PBifQj7lKGKnvB+GjTTM5rCPy72Za0rjKBg5w+xfu9bt5fUcOri5AQJQPZp7Sw+WMbZ/XCJ+fAue60VwYjG36gyg09LBeAWBQNYk9wbaidYViZKlF7KGRDWUNPQPimSd67/h/+1zfDaxbM9VVhx7hhL+rM6hv4giBuuPUg26irxCt9MMbBzMyu6KOojPpmPHhDSjND+JRIh71MmZVMR5Mi/gQsEh8e0vs6smhQl6R7Rww6XjroPduk7/6TOGEtVL7+EgbuaEueuC6OkGlyfzji7r1MRJ/Ykf6Q4SyEhsK7qCcqsBgzFhFgltWKRkRV2DLs0N1gqkd6cV2K53194/HP147+D4cUgkIGl1as2M0tcUJtMhmE6CnRmsRIgN0qiM4EpBf2IU6fd1F7tqSRbSxXA+7ktD+DGnlMP79gJ5BYS1WBYOHtmBQHBkfJcCmcGy+Zxi5SdREzwxbf4aEDiXLBesI1Ibb14GoHtBud6uykvjR2qWySCMK3Q9Cs4iyKXzwyTS/MCwpyDq625t50yOQpjTsdDWO9e+oQDIN29KP1CXY8tNea+in8wx8MH66OG6Cy8cwW7Ucv3TQWzSbgb/4CjBAHJ8LU1+GXVFPmuaDwcrEbMQ12eYH2YOZmUvhXelWTXIoGoEGUqVtETH78EYtxJKUaGRu41DQJJYndtDitA3IdJgv75VAYLFDDWEZs2J6jxc/EE9+OoC9H+P2wuroRzCr+cuhjrZuOloZAhwWXxhPrWRvI6O12oiZHXV6WF6Z8M+XumBNy0mrfdifqj9evwJ1iJkO3hRbp75fn3AHuGwl/9RfJy7BBNrVmZwHVIyXd/XcERsh/PdndFsHZSkiHhx6RzNwzWI5EbMNbAcmoDDsDB19wYgSkR569KbwqVDvcwmiyEZAdzBiFwSVDJFUcdEMYKbu9teq4XoxbIwNsPJCmCvldFfVr5IDF8RRs/7LQ3uQtnOeZ7O2ea2qN0e+SiKF2gGLLYPpnix/n1YVAOb9d89apHwGukCi/0Zhj2TfEFLp8rA20TnywzjEaqel2tQc5oRXaNIte4WhnVytG4Qzp+ziyhyPqDk8G5TSyoWZEZv0PdqFvJSm/lSEhBP6ISQqYhTwpuiWyaopaD35Mcx/NzIbwAMnPDlLSrnB0LbZOPKGDSfslJ25PUPlFRWENQpuVMl3CMXt1iP9xVqiPUw8UxBC3FU7X8pyB+ODBv0KX2Ars1JaVJbjJc07fcmn5yA7KEDUOIdupivbO8pqLTfTh5bbMwb50vUuY5Ee+eS4v/RcCZ1ozaZpIet5SSvAQxxcJofHdY2WpyqqUb+ZziQUhHluq/KXDEtK8AvqzeKwZDbn/c+ClDWBFH8g0K7rzY/7hLgP9hcKyX4iAGMvnF7OIlu1eut+DwuYlKJR3HE3Nb+qRCKvL8alkiQ1
+    properties :
+     x : 737
+     y : 379
+     width : 193
+     height : 40
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : BTN_Browse
+    identifier : 0x286d114a31bc023f
+    internal_properties : CAAAAAgAAABOGKtPp5VxzpCp7g4NpTmZo47en8BR9XchIKbKEw3YJ2Bk7Y8n35+ynN6yyXfqU5xvLd8goAUwU/57iC5Fao8CPZuQS5+5CtPyev2OFn4l0fstFdwNaXQbjVmKXUPmKSDASuNazwPzymoZWuqytVfW5NGgTrvDHIXFmI0xnRjYf7p+a9AC2gTrwjtyXrg9vjED0X/pfmBGsVy9KWpcwkL7VE53VfY7cxFP2Tg/ugLX7UoDzdyuRnneUa1SrfCaAXtLqLFwN92oiEjQKZ8KMIGZhH3x7fnw4Un1GpZ5mdaNRtLNMKHdOJxBijbKwu0Xf2Zx9C0Cva2cEKheGKbXbv/rg4mp9LEMPIxMiVO3cIJbBO7vXc7smgGt4YgYtpj/g6u6CCqcM/9cmcpLnUzLPfgO0MMe/lhlc36gzI+Q5t8Zc4RBnlA+jLLx8H2fwaMS4uqvEGAOR80NnRGBWApx3cpgJWnhD4EQTedi86ehz8cESDsbsnKZTtrgSME8FOJJFkiv0PQ8HwsrzOM1H0Bn4OZ+d8JmEZ/YwpqpLkbQpMeWxRlbYmB+r2K0ZSv87mFRwvdM4c13aCrS3mW/YKy8oJ5z2yGZGrGnoBv/C85JM+WypdR4iOwz+e53jurcGpe12RFg2DihOB6h3fdFCnYXxmUJkw/oRRdnfKxi7kXhGLN1oYRP+l01hTWS+rJyoQAPz4Ok3rb2I1RHxzpj+duPciWlsELpdFTZKGHJAEnmQSPA/GO0nuJmtrLUrVEbi6VpBhRMNSnIEz1TM/x7HBg9+kMCCvKgl0LekPOBq9GPPcuO/rxgOsGP17AB44OFVHZeL44J0+KBT6pC8lXnhVeZVfJUt7n3RgK6lRjt2RXxeoMLPy8WYxqaNW6ie6ui1wOg6bQJBZXvRJYZN/LBLpo03hQu4S1XjgB7j15shA==
+    properties :
+     x : 905
+     y : 395
+     width : 25
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAACMy4iWBWnGyBc2O8Y+U4Qrb3itwYAR7D6lOwdbCYsOwwv40B3BmXfXwoIz6UG+99iTSAPLvxfr6ul+HLcRYvlt/smcKdS4aYbHv1xCl1LX3/QTRk+/jxPhYQupGEZxdGsw94Up6LemrzzVfQ==
+        code : |1+
+         
+         //Choose the pictogram that will represent the location
+         sImagePath is string 
+         sImagePath = fImageSelect(CompleteDir(fExeDir()), "", "Select a file...", fGraphicFilter())
+         
+         IF sImagePath <> "" THEN 
+         	EDT_Picto = sImagePath
+         	IMG_Picto = sImagePath
+         END
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : IMG_Picto
+    identifier : 0x286d114a31bd023f
+    internal_properties : CAAAAAgAAABCDiJV9JZjF0GPV0TGCTteaBO1/DBu7uH+IbW12xURHveIYLqOkzjhI4V3y5dEE+B9EnI1xbaGYIi+61YUBNDFb9j+yOsQsNYjVY6Dr4sMl+lLQpI/h5BZMDWW40kHYHECVUw7TvpOFkB9nqpx1Crazy7nXsFGdPOOKvMWEhRIqhL+7p1YSzAdCsH4Z10vUe8m+TSBZnwkZdifmaDRQpW69AT+LddVLms3i4ZVcOXGQ5dYksljUyeF8pMrsoeR/W9XukRYQI0oZrMZmHBQRI3+BGnES9IW9idHhPx/VTe4LOEhAYl0OjSs5xOmMGkEyx2BKLlImn61i7jgH1Ynq9VyFzI+Cl7Xz2zFSNK9pKII7vZg4Kyzknjk4RPKn9AbljNC1pD28xkUVAGWIY+YS2twzMM8k+ma194nI68qNJCe+/JIrenPCfzhzX2eBe8bQ54ZBDug8IsE0gcnAHq8ljGQE0FZUgMSzH0MBxv2HqJVhUCzJPdKhv+XSX3KdlpvD97H89yxP3ffWQoXg51GsbEbgLSJnb0GcctZtI40qN3XZZ3ySEqY+DNmcJxG5u7b6+KOBKezqUhtrSvnXbBjQmfREbgf9jyVQC5b628dzmE1KM+VtCOVZp3UASxWTp7jD3S1/ENrZ7tc7iCcwxaAXo3Lu5FIr6P31tOEK6pj1tb9lpsXxTqSkJKqai54ULc8nfemD+j/UlW/cVbOXhCqqq3283/4AMZtPHSOI927TeHNAQ7DgYOXVN038Lh4suA7gCnTouXe5zgHhKdZE/0wxf9CrAQCcaTsjW8U5CJGuOV4/P0AEkG0fnPvQWShY8rPK1SqLDJgZjuGMDXoChuXYpmeZPRSGpM53pgDbJgILkSgep1TFt8vmEuhmrZzr1NWWxn/H42nr+kVquYcMvQEG2AHuY3mH7WzIoo0nctxCz9AZDl9WgT5hAK4DGVL4OtPIvCSLrV7CT6o9MpoonDGixdRIySAm/mBfTq80JeBEdZzLx1XNsdxy2bnCT5Qw5E8Eh3412cIiLtouhdjqAm57g==
+    properties :
+     x : 737
+     y : 269
+     width : 195
+     height : 106
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : BTN_Print
+    identifier : 0x286d114a31be023f
+    internal_properties : CAAAAAgAAADvzzMiJcd049vIfpG0xzXOeTnccq6cFkqQLSrFqfJq3eoRMj3p6doe8KUvhwaNvBd/A7+so47T/Olga7i+pDVAf+8Nvjw3bmpOUD5jBmi+p9d2rsX82jYytOL69qBm3OgvJ5Oacj90QxzC5aQE1a90uMcXRPoKE+bkHqSf+izvBuPSLbGpZMFGcHSkrH5erJPiFrwWlITIJchvwZo184je89Utp2tYxRKZVLOvnk1KW9pkuP44RhLTXO2i7H2MHnh2xjmpcVGeHq+bfPdkja9NY2pRR1N3fEx6lHa2fzQ9UKdpWwdMhPjcrPEKPoC1ST4IUnBsxjEM2Flvo0Ir7+oG4uZBzEnYqSkX3R0ehSoM8k/u3Cbn7iyNeFlHq1CzcU/g/fPPv2Ed3D6CPQMRP9NbnQIzBcFVV6s4mXTOvHgGXHIulXE5s9klDFHq3i37sum1wqXs/xn1ulJAmWuadMSfxyFklNofQwf/GxdnE52esRGJHbcVnh2m2iYWRpLW1cgDynjJJONBcSPSii20eQ6nmv+ZThNAj/jtvP96RoHAW5hfhdDb9J6nRYeVTNVHgpKlQHkMxCJNkwV84+ZHGW1N+ymYPtyzbJTbokUiaMDDU7ByJerKoAEE98cu5uleOAz8od7eZSRpx4sxXMjYvGfisnhGcaKJGy5l8ZhSjoQqtybvX2s2dA8L9d+5twyQgsvlX4JRGuUmYjds8PMmyqUrY2OmD5TAv5/DdvzFtobPsY+lKPkYDFfOUY5AZ8fket/Og371q4OZPAXjqx8du+dfUJ+x9pGSnfGJLGHQ677xXqfr/VKKiPIa0vDIhiXOyp0Z/IkiY1Sy6/1AnTo3UZsicZmnAP2UIqlRYcC+ccOtMJ6/JjQ3il3Ule1JXm0p6PomwLeOlp02/JSVh6CkMXm4k3w3NC639IIazjOnkNhwxNKw9l1I4GJUs/iOyeVlTxCjEA5vuwS5EdOxKPLDRyFpVcENO8EuB61H
+    properties :
+     x : 846
+     y : 15
+     width : 96
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         //Landscape orientation for the printer
+         iParameter("ORIENTATION = LANDSCAPE")
+         
+         //Print preview before printing
+         iPreview(iPage,<§$000e§>,True)
+         
+         //Print the image that corresponds to the last plane of the offices displayed
+         //this image will be centered and stretched in the sheet in order to occupy the largest space
+         iPrintImage("map_premises.gif",0,0,iPageWidth(),iPageHeight(),iHomoCenteredDisplay)
+         
+         iEndPrinting()
+        type : 18
+      -
+        type : 161
+        enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x28368c903c2f5dde
+  internal_properties : CAAAAAgAAACCv199ARoPUfG3WAPSG9eefhOOjWMQrs8CrX6cGGGJPoSHWBq4PXhStOWc1YnAZMZ5+EFR1WTDn8CTOTiyLnXPpAR5X8rsRkPZrm1yZeYDDt4kRzDPLbUf4Sh/mD3kd1D8V2drCFLmjeQhgpw7GKGwHRga+ZdjSqXGIC3LD1RracZ230hOmUJTj+ABDW4IHrw4PflmVGgp8E9KnAf/gselRrzEY90l3Cr9N00QijFYYrbrl4qF4kdim1YX6jYT4ezQhbJsU84ENZsxzq+o0JVHYQ8rxck600VhGV04/ao=
+  options : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAADdF8tq6uPhciUCBn4A5pQ+a/HLBKNtW+jo6OpvOkNXVkEyJXi9zYGnLtBw4Lly4vu1TDjRBUQ0g9g1fCVNOm14X0m8sioPYAbci7I0EHRP9DXiTBAF/SO2jfCBGg==
+ actionbar : {}
+ code_elements :
+  internal_properties : CAAAAAgAAACypDEH0GxaJtKF79VeAIAjSgrjWv6RS9WMtjPfjTRnoQmrMN6ZHIBn+uOdgfT3pOhzJBVzYZwK50XDHaBqHFhqQzutRg==
+  type_code : 1
+  p_codes :
+   -
+     code : |1-
+      PROCEDURE WIN_Location(gnMode is int = CST_VISUALIZATIONMODE)
+      
+      gnX1, gnY1, gnX2, gnY2 are int // Coordinates of the location currently created 
+   -
+     code : |1+
+      
+      //Display the map of premises with rectangles
+      DisplayMap(IMG_MapOfPremises)
+      
+      IF gnMode = CST_VISUALIZATIONMODE THEN
+      	
+      	//The edit controls for adding and modifying a location are grayed
+      	GR_AddModif..State = Grayed
+      	
+      ELSE
+      	
+      	ExecuteProcess(BTN_New, trtClick)
+      	
+      END
+      
+      //The window returns the identifier of the created location
+      MyWindow..ReturnedValue = 0
+     type : 34
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1+
+      
+      
+     type : 2
+   -
+     code : |1+
+      
+      
+     type : 11
+   -
+     code : |1+
+      
+      
+     type : 12
+   -
+     code : |1+
+      
+      
+     type : 17
+   -
+     code : |1+
+      
+      
+     type : 13
+  procedures :
+   -
+     name : LocationCreation
+     procedure_id : 1760082038947250751
+     type_code : 14
+     code : |1-
+      // Summary: Creating a new location
+      // Syntax:
+      //LocationCreation ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      
+      PROCEDURE LocationCreation()
+      
+      IF gnX1 = -1 THEN
+      	
+      	//Update the top left corner of the relevant location
+      	gnX1 = MouseXPos()
+      	gnY1 = MouseYPos()
+      	ToastDisplay(<§$0001§>)
+      	
+      ELSE
+      	
+      	IF gnX2 = -1 THEN
+      		
+      		//Update the bottom right corner of the relevant location
+      		gnX2 = MouseXPos()
+      		gnY2 = MouseYPos()	
+      		
+      		IF bOverlaidWithOtherLocation() THEN
+      			
+      			// Two locations are superimposed
+      			Info(<§$0002§>)
+      			ExecuteProcess(BTN_New, trtClick)
+      			
+      		ELSE
+      			
+      			//Draw the office
+      			dRectangle(gnX1,gnY1,gnX2,gnY2,Transparent,DarkRed)
+      			
+      			//1: It is suitable
+      			//2: It is not suitable
+      			SWITCH Dialog(<§?183694D20182A3D4§>)
+      			
+      				// It is correct.
+      				CASE 1 :
+      					
+      					//Update the value of the item containing the coordinates
+      					LOCATION.Rectangle = NumToString(gnX1)+","+NumToString(gnY1)+","+NumToString(gnX2)+","+NumToString(gnY2)
+      					ToastDisplay(<§$000d§>, toastShort, vaMiddle,haCenter)
+      					
+      					
+      				// It is incorrect.
+      				CASE 2 :
+      					DisplayMap(IMG_MapOfPremises)
+      					ExecuteProcess(BTN_New, trtClick)
+      					
+      			END	
+      			
+      		END	
+      		
+      	END
+      END
+     type : 458752
+   -
+     name : bOverlaidWithOtherLocation
+     procedure_id : 1760082038947316287
+     type_code : 14
+     code : |1-
+      // Summary: Checks whether the location currently created is not overlaid with another existing location
+      // Syntax:
+      //[ <Result> = ] bOverlaidWithAnotherLocation ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	boolean: True if the location is overlaid with another one
+      //
+      
+      PROCEDURE bOverlaidWithOtherLocation()
+      
+      nX1, nY1, nX2, nY2 are int
+      
+      //Browse each location to check whether the location currently created is not overlaid with an existing one
+      FOR EACH LOCATION 
+      	
+      	nX1 = ExtractString(LOCATION.Rectangle,1,",")
+      	nY1 = ExtractString(LOCATION.Rectangle,2,",")
+      	nX2 = ExtractString(LOCATION.Rectangle,3,",")
+      	nY2 = ExtractString(LOCATION.Rectangle,4,",")
+      	
+      	IF NOT ((gnX1 < nX1 AND gnX2 < nX1) OR (gnX1 > nX2 AND gnX2 > nX2) OR (gnY1 < nY1 AND gnY2 < nY1) OR (gnY1 > nY2 AND gnY2 > nY2)) THEN
+      		
+      		RESULT True	
+      		
+      	END	
+      	
+      END
+      
+      RESULT False
+     type : 458752
+   -
+     name : LocationDeletion
+     internal_properties : CAAAAAgAAABGB3chF/rIvWZ2Z1AvBYumqMV6NfrX2XC1/3r0WDVAD16nrdE3Qxno6SqDQRisvrk0/2GASsxHOpV1ehTBGDe636Xd4tIA9YRtftzfxThdcvlGRWyvAtXGxFaDFAUwPfS5ZhSHDFlQC7SwYnmd
+     procedure_id : 1760082038947381823
+     type_code : 14
+     code : |1+
+      // Summary: Deletes the current location, the one that was clicked in the map
+      // Syntax:
+      //LocationDeletion ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      
+      PROCEDURE LocationDeletion()
+      
+      //1: &Delete
+      //2: Do&n't delete
+      SWITCH Dialog(<§?1836921B00B206DA§>, EDT_Location)
+      
+      	// &Delete
+      	CASE 1 :
+      		
+      		//Check whether the location corresponds to no computer
+      		HReadSeekFirst(COMPUTER, LocationID, LOCATION.LocationID)
+      		IF NOT HFound(COMPUTER) THEN
+      			HDelete(LOCATION)
+      		ELSE
+      			Info("Some computers are associated with this location. Therefore, it cannot be deleted.")
+      		END
+      		
+      		//Reinitialize the display of the location information
+      		Reset()
+      		IMG_Picto = ""
+      		
+      		// Refresh the map of premises
+      		DisplayMap(IMG_MapOfPremises)
+      		
+      	// &Don't delete: no action
+      	CASE 2 :
+      		
+      END
+     type : 458752
+   -
+     name : Reinit
+     internal_properties : CAAAAAgAAADPE9x8yNHeVJfHRWnp2PqWWGUdbpiPKHA57MJDMk+n/DonW+u3zo3q3N4NY51bsl1//m6gJzQ3wRLiy63f4P1sfLTK9+nyf8Yr2HenCW902+Ch5pnIfkV2obgg1x4+Mg+55GbtM/WvBMXmLgLtkrXAXZ/CpH+1iEN56Hz1ME/3IhK4T6DOnskQ+0q3Zpkm3+CLPcG0
+     procedure_id : 1760082038947447359
+     type_code : 14
+     code : |1+
+      // Summary: Re-initialization to the view mode
+      // Syntax:
+      //Reinit ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      
+      PROCEDURE Reinit()
+      
+      //Reset the coordinates of the location to zero
+      gnX1 = -1
+      gnY1 = -1
+      gnX2 = -1
+      gnY2 = -1
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAADo+FjX3ceqiZ8C/xXjsjFoaK1SGLLQzN6bSdk6K1ZJ2txLnvXR9oUXphQdUVSGhaV6Ha3Ix46nfNPXzfdLTA==
+  original_name : FEN_Fenêtre1
+resources :
+ string_res :
+  identifier : 0x18368c89004a4446
+  internal_properties : CAAAAAgAAAA7wCugPa3Llh29up4VO+T++wa3OrewuQ3WP4NJV47trUqhlqE=
+  strings :
+   -
+     text :
+      en-GB : Click on the location of the top left corner of the new location on the map.
+     index : 0
+   -
+     text :
+      en-GB : Click the location corresponding to the bottom right border of the new location.
+     index : 1
+   -
+     text :
+      en-GB : Unable to create the specified location because this location is overlaid with an existing one.
+     index : 2
+   -
+     text :
+      en-GB : This location corresponds to the %1 computer.
+     index : 3
+   -
+     text :
+      en-GB : Please delete the computer first or assign it to another location.
+     index : 4
+   -
+     text :
+      en-GB : Click the location to delete.
+     index : 5
+   -
+     text :
+      en-GB : Computer.Location ='
+     index : 6
+   -
+     text :
+      en-GB : Empty
+     index : 7
+   -
+     text :
+      en-GB : 1 computer
+     index : 8
+   -
+     text :
+      en-GB : "%1 computers"
+     index : 9
+   -
+     text :
+      en-GB : map_premises.gif
+     index : 10
+   -
+     text :
+      en-GB : Click the location to modify.
+     index : 11
+   -
+     text :
+      en-GB : Click the location to delete.
+     index : 12
+   -
+     text :
+      en-GB : Enter the name of the location and a possible comment.
+     index : 13
+   -
+     text :
+      en-GB : Print preview
+     index : 14
+ dialogs :
+  -
+    identifier : 0x183694d20182a3d4
+    internal_properties : CAAAAAgAAAAsFFiy6z9zXhSYBpBQpsbQSQPjEfTXoVd51yKZywcb1yE1
+    label :
+     fr-FR : Le lieu vous convient-il sur le plan ?
+     en-GB : Does the location suit you on the map?
+    image : {}
+    cancel_button : 1
+    buttons :
+     -
+       label :
+        fr-FR : Il convient.
+        en-GB : It is suitable.
+       image : {}
+       value : 1
+     -
+       label :
+        fr-FR : Il ne convient pas.
+        en-GB : It is not suitable.
+       image : {}
+       value : 2
+  -
+    identifier : 0x1836921b00b206da
+    internal_properties : CAAAAAgAAACqSxqAj2y6VUfi5dDo78XmI61VHdjoh+gpsDYm3UIVqcUStybdrpRejgtXwGqv5ULp+SjLyGXzKsZcG2WkzRlgpRBDgRKUISjC
+    label :
+     fr-FR : Voulez-vous vraiment supprimer le lieu '%1' ?
+     en-GB : Do you want to delete the location '%1'?
+    image : {}
+    cancel_button : 1
+    buttons :
+     -
+       label :
+        fr-FR : "&Supprimer"
+        en-GB : "&Delete"
+       image : {}
+       value : 1
+     -
+       label :
+        fr-FR : "&Ne pas supprimer"
+        en-GB : Do &not delete
+       image : {}
+       value : 2
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

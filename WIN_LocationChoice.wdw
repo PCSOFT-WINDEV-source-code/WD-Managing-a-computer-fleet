@@ -1,0 +1,197 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_LocationChoice
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WIN_LocationChoice
+ identifier : 0x286d113e2f71d1e8
+ internal_properties : CAAAAAgAAADDt6iMI66La3WG+yAkZKA3OjOfYQ3fglIgw0DjZkjLo73/9Py6fvdqdLJXZ/4aTn3rGr1SQh4hdPPZyqa0ih4CpDaBr3loAYdqL03GWwfqY3xJsXneXd74uZNvr/27lKq8oeS7SOZtryNRJ5jxj0b584yu/QLbN0Cp9Pq2Zcy8EHqqZ8sBaMOodRTVgq0XscZE3VgzH3ITQNg7nVHFDaL5FuiYJSZNWI5Ulaebhp7xUYWYKvCIra8CFSEDUJIDyNkxrfpWbyp4KUExKPBzNNsZml7+MvZl5tHTnvbN4Pl4IQ5j7AB8J6/Cn/C6UsWTWbK1NT/vIHT/Uwpo+/uNU5TBZy7i+2HkVM2RTBUT6f9b6UQ8hqXFZ1PY2E7mwoD7V4VYr7tjkstcESxAT87KnJOLeSohi59D2TY9MwN/4YAoVkvonrhdQCbvJ0A0nYNeOmE23TgVRClZppJzow1KdtOWKgnE1MDzzYVE2bzWQYVbZ6TWRrvEDi4Y4ZJCfY4ENY/EkbjrShuCVZE652mChAsRUy0fLWcInJrClSYIMM+8CLjuBv2Ds4rFMDr7mC8iS3O/JOVmnBGTBv4AsVpq/bBLV7gVJAjJqBtFqVxrzRayPSGK47r94Ok6I8JdMPR2mEEO+QWskxyqD1SLTBwWu1MMZFE2sxNAVF2Q0WPgAbfAQ91MOOXz/JJgHl/qZKAgJL9WnzKgH6oMaxq+eaEPGvMLGeSn2DkUMIes0F3pNBl6K/c/5tAOvXrVGekM1GtzK6nnF0clz/kLXyTuduUGdTb44p0UmdQLqbg1/kxzI8KMmkTDnoTdSEjT0lLYHwbYfZtt+7e7y7d7tu3ZIy//7CVlWSw+nfbg6g0aIR99qBUbsccQoaNI3SIn05BJVb6TiIaCBu3rQU8kIw6S2ydvlc+0Q953/YfDFbtafYiMVmQ1ze/i1C/0ZwV3+unkciUFoGVBDMJfs7pjAzfu7Lo2nEnm1zI7vq+XWtd0YfrrWc+4q7IDbrPNqMTZgee6zFHSG2px13DQw4uIPaZ9Hq7W
+ properties :
+  width : 657
+  height : 472
+  widthClient : 655
+  heightClient : 470
+  widthMin : 136
+  heightMin : 186
+ controls :
+  -
+    name : LSV_Location
+    identifier : 0x286d113e2f72d1e8
+    internal_properties : CAAAAAgAAAArQQgU9JWJdwX3uXrXb2mopZA0/v6VSGAPwLqXEJsHckC0yv+BFfTMoDE9R2eAdm7WQ+GUz7ic0q32lkShnQRe7/Gr5K2B8e2IQmgoRl1c+iqG4NgwuMExKBhbHdqiDZIIrwo+dsWgRPaFO6WWSOTybEDsQczonrqkNXeTXxACV4FZzvB+/BJ4zPQhkUH53awOnf7umz4Y2u3uufibUM+TJcsQzcjZhwTIjCrkSCQY4diP+JbETJPqn1e02eIscnRIiZpLJq36o8o2mGxaPxzvzhwQlvBRpIWI0OBS+71d7Zh6+zK5/1+udP+gFfFjY3sT10NkNQNlikRWyFmEKXNVs1dCZhlOANsh4LV4WKlq2/UncoLWbym99EWbyKLMynHjRMRsc7o3ecWYIlueDLW7xv3RQuWipV4DkP+/Zx5UPfSaBVeU2S8iZzAonjaM5RdWExbHO7cEFXEsYxg3AxuH3guCX3D9mGMhWolrE0UhBbv3rDvrEftJQX77JJY3taYSGX4nRAvs1YVNofwp2nOeWCLdLEIwJz/gWRSmCz8PHCs9JmWABybwXpapYcmEGPvGLVN63nIEvUvHmST0afgK7IwTYS7d20Bz6J+PTMbEpDO0qA3mgtrkGQlySQS76HOrclUUyFwtNdoZtpos1RNqLi5aQbtvk90Dx+DEoZPHMEG4SfxYY7NbGUPe5AIVgdUakY4X2ZtyUcUk6m9QFWsqbsnTWoaBLRjVELGc3No2ZbUjDCnzmJMNtCB7W5h6IDJbff24AKnM9JpK87nWIA/Wz6rCYlNzI0YKK5+84lJ/4leaR2pZmJP3VGrMwrjjtm+UNAdbFDyP1Uyf4bvwCkKpqvBgGSyBGyzNZ9Jp4zrA/MJeJ0y8Y6j8QyM9OyQ13mL+BBNfUAe24Pnm3G3IHE+PphtZ9/rBA3DCbL3aU68DKIbVXQaXkYUIo6ENuc8MI6ZHXj0IcDCOhkD8jktq4Jz1RD+S8pnl9DmE6608HDGh64t2NYuq+I/ZdbYDj7zkQSvHGSc/jzjTPgCYWQDxLu5Rcd71YemMZYdkyy64hYII+m5OWMvlJ21xrKZpHozFP0DcUt+r+Dc2orewMqWeowDviTqrzd1ybaMyDCfG+3BscUQVqLjFEAZF9WfMW2Vo99KxID3E4+Bef99Yj37+5lS94rOUyRLQXqls9X/yaJ3MUno34P48WsER1AfeSLV4nMDhd8ppyqX7q1p+jtic8DUBa0Hdp7HVmFWPyKGzME8ybtFenFLhmbpmnSYmkZYKq4p436/ktnDdMcIV58OAnP0EV88K8fwmqfxKhws0vvKu6Dkfm+pJScxaBvJOXqnFZOVa6YDnLVnI7c2APSFFJmrd5EaeXuHC5fRUBvtV7z8a5pwjK1LmjHQPxkV2jieFyjVqVZTicflY73TengbzLpJ3qTeQncPgLxWuxeHDfpQrBGESrjxcH83qhUeix13KUfsLXxBvWkBfvLg9hUXTwSMm
+    properties :
+     x : 11
+     y : 57
+     width : 633
+     height : 405
+    type : 27
+    code_elements :
+     type_code : 59
+     p_codes :
+      -
+        type : 22
+        enabled : false
+      -
+        type : 24
+        enabled : false
+      -
+        type : 23
+        enabled : false
+      -
+        type : 25
+        enabled : false
+      -
+        code : |1+
+         
+         
+        type : 33
+  -
+    name : STC_Locations
+    identifier : 0x286d113e2f73d1e8
+    internal_properties : CAAAAAgAAABBZV2XINPLfIn1Rl6GNnblsb9IYd9JbO25Kvd2zznh5MtdAs6o3bN2bYlMJhi4JnHOqF3LLkADZEUWBjyNZN1FVJkIs83YKy/dAPYqNK1ooSxfXOwuyZuR9ono0Uniza1pE1PC8zchh+CNwioIKtVM1qObXEPACnr96JofpN1MsENAW9h8AtmEeupoOThddVR2tH9WESxGAOg5tSRBUuuYE6zWwLZ7LmjU1xiMAInuhOGjkKFfWjV8I89vpJ17czrOJvGTvvkCt+Wnx9AsupdZP4zfaiB7g4t47xA6IaAFmUrHBoBvFAmkeLxf47XPoYiKS/rIeCS4Xnqh24O5ABRs5d4Usj+qv9nbmOfEs4zhWMO8d0AAngbFEqt5YIXAyFtMarn1DqIKHqc0kQzB83sY3G+ffrWmcRmFA8Fg3NRy0f1XAz7FFknS3bsh15vH8usJBrBNELEuQLMSTqEm7ZJGLOq5Jctb6yvHgxMxaOJTTbdISBsq2TXQXyAyVQGtZcqLpro=
+    properties :
+     x : 12
+     y : 12
+     width : 196
+     height : 30
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : BTN_Validate
+    identifier : 0x286d113e2f74d1e8
+    internal_properties : CAAAAAgAAAAyE8tfpKl9wOHvCLCrBKPyw3LovH4S59S2v0IrUxnK1XxEhU7aIPCMJNA0aWTWXhikEpGJdns1/SuSnlNCP3iKwsJLz4Zw/jRkS5daq/dPnp7mxOaFUaId3w4fmWR4IXo2F53rDl93GPk+sl/ESg5TzBjbo4/UyD+XghZWnCXQLlEk7ylxWBKiLNzGaxC/iHFcX4+I7PZ6vzrcYce8aF+nyLEcjKFwDECYOuARc/DNnixri91QRRPy7nvzP1oo+OMsbVCmZoDLwnUoK8ISYbXKG3BSLUnWb68byPu9WfkG4TLl7zG1k/vXwuaVhRFivK8s0aRZkdczUeL741KXFIwlL74gE3BuEK+ig43zNKol3ZCJCz3KBoVohrqmn/jm+LkDMIQOqiHxq/euMEKhSAuyowSJKkfutwndZrMZOO+YbPhBlr2W1vohrbtCUC9ukDADEmPIVcONN5JiJRW3RqvnrvgRCzK/TtYZrhpYV2tig/CXn3LnlPGSADBN6Iap7fcLQHky4tp9egt248Oc6wr27jK3Z7Fzsnsn9B0VUcsjOrw4Sh3U0/ZTBDb+MrD50WMgYz41K98+bwwVpjz7SjUN9RO1ID+awdhJV7O8kA1h0N2KYdzZm1b7OuWMYsPoDcVR/r1AWxuA+xIEZDv2b9Okz4cOjkmtsK0FREZn0pueWtQR02wSfbvVcqSBZfiWtMOXDLPyV7X6v27WIMtcuHKDz7Pk2ZA+oafHngyszsN+N0Z/OKdHvef67D/QWmcj0CKIyAyOMtSGzl+NFT8pXOjns7bTXCzL+ope+r/AD5j2o9mNELgL+bYV43RW0meYRgw8KjPQN5PeqcJ9utq5htXkVjznSrmJO3okrz75ObZWZQFPftxXQl2N8GrKbpmE8Bg/G3hFuViDVyYoJdxvDkTUOxjFRkuM0IlydleWPdDX+8oO0ZDVaSw3y2XWRgg1S5zayRua5RWrCpzUCWxfxQmhSnlM5qEOiQ==
+    properties :
+     x : 348
+     y : 15
+     width : 96
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAABZ8FeDCiES7Ja34LibSNSwUUviExWIqtKhrb3hLMq24Bw5HHw1ALP1tBPW6K9aliss06gNDzPRJ+1oX6Sck59NLNUm6H21teUWiiWh2gycm74+MDjYt9EiPIqGZ7TQXF784+URgen92hvsWGAXIa5q2rO4bDBdQ6/PBbC5IpTu
+        code : |1+
+         // Returns the element selected in the listview
+         // and assigns it to the combo box that opened the popup
+         MyPopupControl = LSV_Location
+         Close()
+         
+         //This process is also run when a double click is performed in the listview
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_Cancel
+    identifier : 0x286d113e2f75d1e8
+    internal_properties : CAAAAAgAAABgtJRorizZbtb996zkDFTbi/u0+vdmNXO4QRKB0D4zhQ2wgrv9IO9+kpKDKhw6A7U0oqXxNWVKrLNiNEDfO55Jg9s7lv2Xz8mwAsHdGhfGrNnELuCNSYXltzMEuNAuPzW1yvAeVh+qu7wIMBvNbjATc+9sddc23ZA48yO+5ZvBxGcRaO3AW24HDBQP0fuEmy2d0CvZVeQ0TbrFoA6vu4mgHCnWisOCVXGFaJ7IKNEbT9dM+KdiW+DyGdCEV8P8c4VvbAWVAWlZueAwZ+YblNf5DvDJYrifSo6YTWJ65gWNXpEwMB9Uh3FLgsaJ7UKXvBtu9G3nEgKk/5uUaumGGN2VAwkHnOHe3WK86TzXK7BiHRuWGsSLuk0l6FVj0KaaeC+shcTByxEh0fXC/Hx3wFKlDwQZEn44DNNdzMnZ6xlfcUXUsjPILgN/QiFCJikM82iDbdj2brkLaivr77mSTPEBXxW3B4qz8EkqSCb88idsSUN4i51jdYVjgpoKRnrSNfWYB+zLhSjAiSdK03zLGW2b/uTd6X/M6oQP6H0K8Pk696asOhlc7q5kFDrWjxNTZpS+U8KjTSRaYEDnbmSNYxefhKnAeqDNW5ocBhYbAFx/SfdAZXtqXHsJq4CcS6b8Snu0ulndu07ZW8trojkmBFVPS6eGGcJ4/0dcev3umI/zNy/nrGZYOTDxXwlbdzn7ekVKVBj3TqmKukoCdybb58jqKCgv8NASivy2bCu0UwR3MyI75N2MD0qU4TNJoQUNlPDp2MbMZKhIlR0AiTopE1gzMd/51fDP+OCT/ijwOPw4/1gAn7Hfso6SA24/JVNfz8J7eb8+Zt1HI1nAS+bjZqOUZ+vP4FnI521pQHt5axvlEjGAPArhK45CnCxIHjVD1iRbsr+2vjY+pe88i0+1RjHA+SqT9ljJ4py2LnzyLYzUCW+lAu4gItpVGVgfKgY/SfalhVTfgsVi9tbQVw8hh1HPGVt7TTvXfiLI
+    properties :
+     x : 450
+     y : 15
+     width : 96
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         Close()
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_New
+    identifier : 0x286d113e2f76d1e8
+    internal_properties : CAAAAAgAAAC1lkbCjbMquyLun9kMmS7PeolBHbxJSC+BHs92ECb0bxVIFieGBWu0mDAB/hLR94n/7l3gwYzToyp2pWockw+2CT8uEBIUO+0AD/Bs+BPASNdmJvAoviPn5E0gcVji1kFXjUtH5TKBgk06OtE4qEtBRtYMGg8WqWRo1eZvgyN6CwrEDLYusa/cl6a+T8jJ/P4lozLMduTGqFkWKC9jAMIRqv47Nuhg/8F65beb4TELlEkqClZeII46lq5GfhQMs+kEZuQckOjbtTdXqLrBHEjJ9OpFEoBMW6P7+UinroA848lbYGZBWadwpq6flf72TZ4TTy/Rk7UrCFJyda6er8jUxVn2KlaiQu6OCe4OZzoNf+wQ1I2r5v3DRgHX19Q7jfNLZJzTgzzVDlNRxZYV0Eq/z86d4O4rS4l1rje5bElzUH2vs106aJr5I17A4h0AGqBVvoJGTV5Owh1Sp8SxSDkv3SDO69qGKs7yGl2xn3J/JIdnOJ3OzDjy89dg5rNRL+jNSnaSEKTg3kgmIzIQHaf5Yc7oXhc771TI27KKUj3dXcYoSp8WQUY2CYnhB6fK/KbioaDz/8QavdYw91zxiiE4seVQ2JeqI016vJ0ttCZRkjr4R4TNEjHqRe0XAH9bPOP9qrHEsQFEAqGhKqKKXPiOuBsOl/lwTYmsX6bv5E+pr56JEeh6tj+Nw+0KPZ+vnW8Wn7dfMGfDHGtETQQmF1OnhLM5lG9YyFU6yQEO59+F/qC1RWTTILFhZ8UeBCJsPgZCdbaNlzeSNtDJv5FIBVKt+QFWT9Sx2sBmwHVyK3s+OLmeve+UZUoncbLHeo+7Yp2kBjnDeVV0/wcYJbfS+3IVEfCgGUYsY0TwxezrQz3Uw2rRB0/af+G3h4+AAnzhi3yAzDnE+OcsPawHe/pvgwuWZMcMZ4WN6YzhbxGkJcNxzFtlr7TdMhEdYqqx06kqXAuX7oUmIQlZ+jw+m9LJzWFXSOoxgx6JDg==
+    properties :
+     x : 552
+     y : 15
+     width : 96
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         nLocationID is int = Open(WIN_Location, CST_CREATIONMODE)
+         
+         //Used to display the new location in the list and to select it
+         ListDisplay(LSV_Location, taStart)
+         LSV_Location = nLocationID
+        type : 18
+      -
+        type : 161
+        enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x2836deec9a1c1e75
+  internal_properties : CAAAAAgAAACCv199ARoPUfG3WAPSG9eefhOOjWMQrs8CrX6cGGGJPoSHWBq4PXhStOWc1YnAZMZ5+EFR1WTDn8CTOTiyLnXPpAR5X8rsRkPZrm1yZeYDDt4kRzDPLbUf4Sh/mD3kd1D8V2drCFLmjeQhgpw7GKGwHRga+ZdjSqXGIC3LD1RracZ230hOmUJTj+ABDW4IHrw4PflmVGgp8E9KnAf/gselRrzEY90l3Cr9N00QijFYYrbrl4qF4kdim1YX6jYT4ezQhbJsU84ENZsxzq+o0JVHYQ8rxck600VhGV04/ao=
+  options : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAADdF8tq6uPhciUCBn4A5pQ+a/HLBKNtW+jo6OpvOkNXVkEyJXi9zYGnLtBw4Lly4vu1TDjRBUQ0g9g1fCVNOm14X0m8sioPYAbci7I0EHRP9DXiTBAF/SO2jfCBGg==
+ actionbar : {}
+ code_elements :
+  internal_properties : CAAAAAgAAACypDEH0GxaJtKF79VeAIAjSgrjWv6RS9WMtjPfjTRnoQmrMN6ZHIBn+uOdgfT3pOhzJBVzYZwK50XDHaBqHFhqQzutRg==
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      //--- Popup window ---
+      // To access the popup control or combo box that opened this window
+      // you can use: MyPopupControl 
+   -
+     internal_properties : CAAAAAgAAAB+eToEN5pFmMM+M65SN2x/m0CBvZSFBC6Zg7djFc+2D/co/LmNTVdPbnpbebWi7xQXAO//o61V1N8wgk3/gOObSLOax4r+0/BlSSKAJaAJ/Z5ldJ1VvUULR10PnlxPDgGyeSs/z4kUHa5H7w==
+     code : |1-
+      //When opening the popup window, the element selected in the listview matches
+      //to the element selected in the combo box that opened it
+      LSV_Location = MyPopupControl
+     type : 34
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     type : 11
+   -
+     code : |1+
+      
+      
+     type : 12
+   -
+     code : |1+
+      
+      
+     type : 17
+   -
+     code : |1+
+      
+      
+     type : 13
+ code_parameters :
+  internal_properties : CAAAAAgAAADo+FjX3ceqiZ8C/xXjsjFoaK1SGLLQzN6bSdk6K1ZJ2txLnvXR9oUXphQdUVSGhaV6Ha3Ix46nfNPXzfdLTA==
+  original_name : FEN_Fenêtre1
+resources :
+ string_res :
+  identifier : 0x1836dee500c2fffd
+  internal_properties : CAAAAAgAAAA7wCugPa3Llh29up4VO+T++wa3OrewuQ3WP4NJV47trUqhlqE=
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+associated_test :
+ name : TEST_ChoixEmplacement.wxt
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

@@ -1,0 +1,215 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : Global procedures of WD Managing a computer fleet
+ major_version : 28
+ minor_version : 0
+ type : 7
+ description : ""
+ subtype : 0
+procedure_set :
+ identifier : 0x186d1152032521fc
+ internal_properties : CAAAAAgAAABGLu41kG7fjQV3iS4F72qmnKaNh5694reolNKIW0iw
+ code_elements :
+  internal_properties : CAAAAAgAAAAdC5DaGsntqmfkq1J4p6eipmeEO//QiIdypV0FB6KY+wiPKnW2KoJpaKmeXvb1NGpH4KGGthHXu/V4LqeilI4jnJwO5Q==
+  type_code : 31
+  p_codes : []
+  procedures :
+   -
+     name : bIncludedIn
+     procedure_id : 1760082073309553148
+     type_code : 15
+     code : |1+
+      // Summary: Checks whether the point (X,Y) is found in the rectangle
+      // Syntax:
+      //[ <Result> = ] bIncludedIn (<Rectangle>, <X>, <Y>)
+      //
+      // Parameters:
+      //	Rectangle: String in X1,Y1,X2,Y2 format: coordinates of the rectangle
+      //	X: X coordinate of the point
+      //	Y: Y coordinate of the point
+      // Return value:
+      // 	boolean: True if the point is found in the rectangle and False otherwise
+      //
+      
+      PROCEDURE bIncludedIn(Rectangle,X,Y)
+      
+      
+      nX1, nY1, nX2, nY2 are int	// Coordinates of the rectangle
+      
+      nX1 = ExtractString(Rectangle,1,",")
+      nY1 = ExtractString(Rectangle,2,",")
+      nX2 = ExtractString(Rectangle,3,",")
+      nY2 = ExtractString(Rectangle,4,",")
+      
+      IF ( (X>nX1) _AND_ (Y>nY1) _AND_ (X<nX2)  _AND_ (Y<nY2)) THEN
+      	RESULT True
+      ELSE
+      	RESULT False
+      END
+     type : 458752
+   -
+     name : Location_AccordingToCoordinates
+     procedure_id : 1760082073309618684
+     type_code : 15
+     code : |1-
+      // Summary: Gives the information about the location corresponding to a point on the map
+      // Syntax:
+      //Location_AccordingToCoordinates (<nX>, <nY>)
+      //
+      // Parameters:
+      //	nX: X coordinate of the point
+      //	nY: Y coordinate of the point
+      // Return value:
+      // 	None
+      //
+      
+      PROCEDURE Location_AccordingToCoordinates(nX, nY)
+      
+      //Browse each location of the database
+      FOR EACH LOCATION 
+      	
+      	//If the point clicked on the map corresponds to a location 
+      	IF bIncludedIn(LOCATION.Rectangle, nX, nY) THEN
+      		BREAK
+      	END
+      	
+      END	
+     type : 458752
+   -
+     name : DisplayMap
+     internal_properties : CAAAAAgAAABzGD88NZYjvXBEnp7kaFB63DlkldiRjlc8hPWFvwqcT0j52D6OwXEHM/SgC67BoUesKVKjNXYKP0hswxqBlOlkT7RB548qWA1p59+oqlR2MbeshPpiHy2zcO+HSruJ/aQmQSO6On5GlcqHt7FYBzxJxhh/w/ywgXpgy91AB9gMBZT7yiAYxc9bpto6acPYvALs5SDG/J1Nc4NRqxEy1AX3QTEhsCQ0NY1T6VndF0ldjVYZ3uk=
+     procedure_id : 1760082073309684220
+     type_code : 15
+     code : |1+
+      // Summary: Draws the map of premises with rectangles
+      // Syntax:
+      //DisplayMap (<Image>)
+      //
+      // Parameters:
+      // 	Image: Image corresponding to the map of premises
+      // Return value:
+      // 	None
+      //
+      
+      PROCEDURE DisplayMap(Image)
+      
+      //Draw the map of premises in the image control
+      
+      nLX,nLY are int	// Top left coordinates for the rectangle of rooms
+      nRX,nRY are int	// Bottom right coordinates for the rectangle of rooms
+      nNbComputers is int	// Number of computer in an office
+      
+      dStartDrawing(Image)
+      
+      //Browse the different locations to retrieve their coordinates
+      FOR EACH LOCATION on Location
+      	
+      	// Top left corner of the rectangle for the location
+      	nLX = ExtractString(LOCATION.Rectangle,1,",") 
+      	nLY = ExtractString(LOCATION.Rectangle,2,",")
+      	
+      	// Bottom right corner of the rectangle for the location
+      	nRX = ExtractString(LOCATION.Rectangle,3,",") 
+      	nRY = ExtractString(LOCATION.Rectangle,4,",")
+      	
+      	//Draw the location
+      	dRectangleGradient(nLX,nLY,nRX,nRY,0xD9D9D9,0xEBEBEB,90)
+      	dRectangle(nLX,nLY,nRX,nRY,Transparent, DarkGray)
+      	
+      	// Write the label of the offices
+      	dFont("Verdana", 8, iBold)
+      	
+      	sLocation is string = LOCATION.Location
+      	IF Length(sLocation) > 16 THEN
+      		sLocation = sLocation[[1 TO 15]] + ".."
+      	END
+      	
+      	dText(nLX+2, nLY+7, sLocation , Black) // And write the number of the offices on the map
+      	
+      	// Count the computers
+      	nNbComputers = 0
+      	FOR EACH COMPUTER WHERE LocationID = LOCATION.LocationID
+      		nNbComputers++
+      	END
+      	
+      	// Write the label of the offices
+      	dFont("Verdana", 7)
+      	// Adapt the display to the number of computers
+      	SWITCH nNbComputers
+      		CASE 0
+      			dText(nLX+5,nLY+35,<§@1836814e003963790000§>,DarkGreen)
+      		CASE 1
+      			dText(nLX+5,nLY+35,<§@1836814e003963790001§>,DarkGreen)
+      		OTHER CASE
+      			dText(nLX+5,nLY+35,StringBuild(<§@1836814e003963790002§>,nNbComputers),DarkGreen)
+      	END
+      	
+      END
+      
+      
+      //Save the image corresponding to the plane 
+      //in a gif file found in the application directory
+      dSaveImageGIF(Image,<§@1836814e003963790003§>)
+      
+     type : 458752
+   -
+     name : TestHFSQLFile
+     procedure_id : 1760082073309749756
+     type_code : 15
+     code : |1+
+      // Summary: Checks the opening of the files
+      // Syntax:
+      //TestHFSQLFile ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      
+      PROCEDURE TestHFSQLFile()
+      
+      // Positions the exact-match check
+      HCheckStructure("*", hIdentical)
+      
+      WHEN EXCEPTION IN
+      	// Checks the opening of all the files
+      	HOpen("*")
+      	HClose("*")
+      	TestWriteResult(twrInfo, "Files OK")
+      DO
+      	// Problems during opening
+      	TestWriteResult(twrError, "Files in error: " + ExceptionInfo(errMessage))
+      END
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : COL_Collection1
+resources :
+ string_res :
+  identifier : 0x1836814e00396379
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+  strings :
+   -
+     text :
+      en-GB : Empty
+     index : 0
+   -
+     text :
+      en-GB : 1 computer
+     index : 1
+   -
+     text :
+      en-GB : "%1 computers"
+     index : 2
+   -
+     text :
+      en-GB : map_premises.gif
+     index : 3
+custom_note :
+ internal_properties : CAAAAAgAAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ
+associated_test :
+ name : TEST_Global_procedures_of_WD_Managing_a_computer_fleet.wxt

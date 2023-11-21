@@ -1,0 +1,258 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WD Managing a computer fleet
+ major_version : 28
+ minor_version : 0
+ type : 4097
+ description : The purpose of the project is...
+ subtype : 0
+project :
+ identifier : 0x0
+ internal_properties : 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
+ configurations :
+  -
+    name : WD Managing a computer fleet
+    internal_properties : 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
+    configuration_id : 6373606241903690793
+    type : 1
+    generation_name : WD Managing a computer fleet.exe
+    version :
+     major_version : 22
+     minor_version : 37
+     internal_generation_version : 1
+     autoincrement_version : false
+    icon_filename : .\fleetmanagement.ico
+    language : 2
+    telemetry :
+     status : disabled
+    new_features_help :
+     name : ""
+     internal_properties : CAAAAAgAAACe5gYi57r9utD/+2AdDPtkuBZ9oZwbsSYCGokQwsQHO5hRloRe5vNBrKwB7kb9Ajcm8MJJy+ThV1nz
+ elements :
+  identifier : 0x4ac37ace0099685b
+  elements :
+   -
+     name : RPT_Supplier
+     identifier : 0x487c7fcc0003960a
+     internal_properties : CAAAAAgAAABMyqTwT3Q8b3uRLX17o2z2xpft5QsY4Q7bWDzkIgmLRc9XqMeRd9ofSP/5x0+BeW9Z2Q==
+     physical_name : .\RPT_Supplier.wde
+     type : 3
+   -
+     name : TEST_User
+     identifier : 0x490b5a36000667d5
+     internal_properties : CAAAAAgAAAC3k5+DIB0VFiBa5qoAmh8trTh0dNJI18OnHngiGRD6zmKeY5zMPKVogbginmaaZlqiog==
+     physical_name : .\TEST_User.wxt
+     type : 17
+   -
+     name : RPT_Computer
+     identifier : 0x487c7fcd0004988a
+     internal_properties : CAAAAAgAAAAlIQ0RrstjfMogiFgWwVXfy+iWzhwzwN3AKiKiMOurdY9BmOd2Srd6l44I8LAg2MgwMA==
+     physical_name : .\RPT_Computer.wde
+     type : 3
+   -
+     name : RPT_Model
+     identifier : 0x487c7fcd00059adb
+     internal_properties : CAAAAAgAAADTLwsfrJmRShSOaj6E4CcFkeBIYIyzYCTTtSPh9TZcTLwUTSJIuBncNezWIuIe2s42Pg==
+     physical_name : .\RPT_Model.wde
+     type : 3
+   -
+     name : WIN_Components
+     identifier : 0x483d72da0000542c
+     internal_properties : CAAAAAgAAAA8GhQAv+TM3+sB3Y0reEw+3rE9DVqo30RzaN/qrkpCtgrgg3zhJ4pPuG9pV98R6d8pKQ==
+     physical_name : .\WIN_Components.wdw
+     type : 2
+   -
+     name : TEST_Supplier
+     identifier : 0x490b5a120005dc39
+     internal_properties : CAAAAAgAAAA9GRUJtuPL1OLooPD+LN1nS24aQoguqZannkrQr2oo8AzAHWIO8l+iz3ZgWNgI8OAoKA==
+     physical_name : .\TEST_Supplier.wxt
+     type : 17
+   -
+     name : TEST_Main
+     identifier : 0x490b59830001acef
+     internal_properties : CAAAAAgAAAADf3uvHEnh+kS+Wg6086OpWeaMLJDOcs+jl+K3pEXJb5Gz6hVYqAnMJRyGcjKuSr4GDg==
+     physical_name : .\TEST_Main.wxt
+     type : 17
+   -
+     name : Global procedures of WD Managing a computer fleet
+     identifier : 0x4836814e00006379
+     internal_properties : CAAAAAgAAAAsKgQQr9RcD9sxzR1bC4ymJkf95dDyx0hKRAy1FxGDTecf4C8xl/o/qJ8Z568h2c85OQ==
+     physical_name : .\Global procedures of WD Managing a computer fleet.wdg
+     type : 7
+   -
+     name : TEST_Computer
+     identifier : 0x490b59720000694b
+     internal_properties : CAAAAAgAAAA+JBYKuebO4ekTq//FJt50GAsXT3XbuyZzI3HguXAs9DDuMV4H+VidynFrVd0T7+ErKw==
+     physical_name : .\TEST_Computer.wxt
+     type : 17
+   -
+     name : WIN_User
+     identifier : 0x483a7f580000f7ec
+     internal_properties : CAAAAAgAAAA5FWGlAn83OIb8hNTiRDHL32IOliOhSyBDD2PcbrpQ8BQ4hYrq3kOG41pEvES8RLQcJA==
+     physical_name : .\WIN_User.wdw
+     type : 2
+   -
+     name : WIN_UserChoice
+     identifier : 0x4836ed2d0003cbb5
+     internal_properties : CAAAAAgAAAAXc3+jAH01NoD6hsrgQz8l1WIYiLP9PkBTu35v+w2JZ5Gz6oXs3EWI4VhCvka6RroCAg==
+     physical_name : .\WIN_UserChoice.wdw
+     type : 2
+   -
+     name : WIN_Supplier
+     identifier : 0x4836da9d00014594
+     internal_properties : CAAAAAgAAABj31tPfCmBmqTeei6UmBcFgYCI0OmjsTSKeAGQOu6kZKRsFXr4yCnsBTymEpJOKp5m7g==
+     physical_name : .\WIN_Supplier.wdw
+     type : 2
+   -
+     name : RPT_Component_Computer
+     identifier : 0x487c7fca00018f08
+     internal_properties : CAAAAAgAAACLh/OXFFHZgky2QhasAY9teVo0JL4VYXi5lBmmIDvTFfvB/ANgoAHELRSOaiqmUkaOlg==
+     physical_name : .\RPT_Component_Computer.wde
+     type : 3
+   -
+     name : RPT_Component_Model
+     identifier : 0x487c7fcb00029281
+     internal_properties : CAAAAAgAAAAWfH6iAX42OYH7g9ftQyIg2GUnb4GwELauJ3l6erHjPct3JFsf4UCF4llDvUW7R7kDAw==
+     physical_name : .\RPT_Component_Model.wde
+     type : 3
+   -
+     name : WIN_Main
+     identifier : 0x483684d500002e75
+     internal_properties : CAAAAAgAAAD4ViB8y/C44+8VofH/dhwOgvH5sRrslpWy0hh0sEjMPIxmFWoN816jzHNtS8sF/fPdZQ==
+     physical_name : .\WIN_Main.wdw
+     type : 2
+   -
+     name : WIN_SupplierChoice
+     identifier : 0x483c08f70002a328
+     internal_properties : CAAAAAgAAAAFAW2xjiuDnKrAqPj2fikbK1oi6tuLZDWxsQDI5DRmQspqG1QW6lea9y6oEJBAOKgQEA==
+     physical_name : .\WIN_SupplierChoice.wdw
+     type : 2
+   -
+     name : WIN_Location
+     identifier : 0x48368c9000015dde
+     internal_properties : CAAAAAgAAADNSSV5RjN7pLL4sODOp0HDYww+7sW/AFBKpMXH7zllQ/EfQr2+Am+y30awCIh4APDYWA==
+     physical_name : .\WIN_Location.wdw
+     type : 2
+   -
+     name : WIN_LocationChoice
+     identifier : 0x4836deed00021e85
+     internal_properties : CAAAAAgAAACNieU5hvO75PI48KAOGI3/G25qwg/p52KOuyKEslY8rADcgf5+Qq9yn4ZwSMg4wDCYmA==
+     physical_name : .\WIN_LocationChoice.wdw
+     type : 2
+   -
+     name : WIN_Computer
+     identifier : 0x4836c7f600006a32
+     internal_properties : CAAAAAgAAABr51O3dDF5oqzWYjaMaC99WQjgiEErS8CCPqcgun6UpBSMFWoAwCHkDTSuCopGMqZu9g==
+     physical_name : .\WIN_Computer.wdw
+     type : 2
+   -
+     name : WIN_Model
+     identifier : 0x483c390a00016eb4
+     internal_properties : CAAAAAgAAADZtYGFIh8XGCZc5LQCv2UndyCSUvlRRuy3GusNX9k90ymnOrXKPqNmg7oknGScZFS8RA==
+     physical_name : .\WIN_Model.wdw
+     type : 2
+   -
+     name : WIN_ModelChoice
+     identifier : 0x483bdcd100002d0c
+     internal_properties : CAAAAAgAAAAQ7khUUwggO4f9mcnnlQT+EndRwQif2lpO5/AsvVs5pwXZhonl20aL5FtFs3NtFYt1/Q==
+     physical_name : .\WIN_ModelChoice.wdw
+     type : 2
+   -
+     name : RPT_User
+     identifier : 0x487c7fca00008c79
+     internal_properties : CAAAAAgAAAAlIQ0RrstjfMogiFgW5ZWHO5j27vwZS2eXiqR0bP+XWbsFlPt2Srd6l44I8LAg2MgwMA==
+     physical_name : .\RPT_User.wde
+     type : 3
+   -
+     name : TEST_Global_procedures_of_WD_Managing_a_computer_fleet
+     identifier : 0x42528708021f91d5
+     internal_properties : CAAAAAgAAAArJxN3tPG54uwWovbMrF/V+digeFNHHCF04zlO8AKQeHBAYa7AAGGkzXRuSsoG8uYuNg==
+     physical_name : .\TEST_Global_procedures_of_WD_Managing_a_computer_fleet.wxt
+     type : 17
+   -
+     name : QRY_ComputerComponent
+     identifier : 0x44f70f32019a659b
+     internal_properties : CAAAAAgAAAC/m5eLOGVNXmmA/DuDJ4013VwUXPVWXAB25Q7DLmog8AAwbQiTdswXRvDq1l6SbmKqqg==
+     physical_name : .\QRY_ComputerComponent.WDR
+     type : 5
+   -
+     name : QRY_ModelComponent
+     identifier : 0x44f70f9d019c0948
+     internal_properties : CAAAAAgAAAAxDWm9ijd/sL8ScujlIy2es5bi+kcIK4K2eeZrEoYMzDD8Km8++1Kd2EK8BIxEPKwUHA==
+     physical_name : .\QRY_ModelComponent.WDR
+     type : 5
+   -
+     name : QRY_Supplier
+     identifier : 0x44f70fda019ef6e1
+     internal_properties : CAAAAAgAAAA7F2OnBEHp8v1UsOfXfwKz2ZqUBLO0cddO523sfQuDZasRzrjXapBbmoR+ejq2QrYeJg==
+     physical_name : .\QRY_Supplier.WDR
+     type : 5
+   -
+     name : QRY_Forumuser
+     identifier : 0x44f710db01a0e17e
+     internal_properties : CAAAAAgAAAA6EGKmBULq9fJVsukmYEaxTD/LQ/hZ7qtSShYzpPSguATqlN3Ge5Bcm4V/eTm3Q7UfJw==
+     physical_name : .\QRY_Forumuser.WDR
+     type : 5
+  other_elements :
+   -
+     physical_name : .\Description.gif
+   -
+     physical_name : .\description.rtf
+  analysis : .\WD Managing a computer fleet.ana\WD Managing a computer fleet.wda
+  net_assemblies : []
+  uwp_api : []
+  external_components : []
+  internal_components : []
+ report_and_queries_enabled : false
+ common_generation_directory : true
+ languages :
+  - en-GB
+ code_elements :
+  internal_properties : CAAAAAgAAABcUbQv2XF1K5PS1ZD+n7Exx2bKpZ1W45Qq8rfwim23f5+sqHjcpDogW0Fo3wTFnS1x7YDpcsFoMu93mCMpx2q3OuDSBE11KKuuNWgQGUmj
+  type_code : 0
+  p_codes :
+   -
+     code : |1+
+      
+      
+      CONSTANT 
+      	//Constants for the opening modes of windows
+      	CST_VISUALIZATIONMODE = 1
+      	CST_CREATIONMODE = 2
+      	CST_DELETIONMODE = 3
+      	
+      	//Constant for the type of "Central Unit" component
+      	CST_CUType = <§@00000000000000000000§>
+      END
+      
+     type : 196608
+   -
+     type : 196621
+   -
+     type : 196627
+     enabled : false
+  orphans :
+   -
+     name : WD Managing a computer fleet
+     identifier : 0x4ac37acf00b36a3f
+     code_elements :
+      type_code : 159
+      p_codes : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+rad :
+ internal_properties : CAAAAAgAAABhIL0UXeZmxDJxY3Xy0Q==
+project_explorer :
+ explorer_type : project
+resources :
+ string_res :
+  identifier : 0x0
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+  strings :
+   -
+     text :
+      en-GB : CPU
+     index : 0
+custom_note :
+ internal_properties : CAAAAAgAAAAd98VSJfHHqE3P0QHwrwdhn7ig8dWBR6valpUTgnAMTVXiDg==
